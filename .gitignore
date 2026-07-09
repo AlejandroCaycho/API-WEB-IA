@@ -20,6 +20,3 @@ Thumbs.db
 
 # Env
 *.env
-
-# Secrets
-AS241S5_AEJ_07-be/src/main/resources/application.yaml
