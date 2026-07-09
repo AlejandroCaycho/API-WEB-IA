@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: app-config
+  namespace: api-ia-web
+data:
+  db-url: "r2dbc:postgresql://ep-nameless-silence-am6npcj1-pooler.c-5.us-east-1.aws.neon.tech/neondb?sslMode=REQUIRE"
+  openrouter-url: "https://openrouter.ai/api/v1"
+  openrouter-model: "openrouter/free"
+  mistral-url: "https://api.mistral.ai/v1"
+  mistral-model: "mistral-small-latest"
+  api-base-url: "http://backend-service:8080"

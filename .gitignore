@@ -1,0 +1,25 @@
+# Backend
+AS241S5_AEJ_07-be/target/
+AS241S5_AEJ_07-be/.mvn/
+*.jar
+*.war
+
+# Frontend
+AS241S5_AEJ_07-fe/node_modules/
+AS241S5_AEJ_07-fe/dist/
+AS241S5_AEJ_07-fe/.angular/
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Env
+*.env
+
+# Secrets
+AS241S5_AEJ_07-be/src/main/resources/application.yaml
